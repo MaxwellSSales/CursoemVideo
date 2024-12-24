@@ -1,0 +1,33 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.body {
+  background-image: url(images/wallpaper001.jpg);
+}
+
+/* Square Element */
+.quadrado {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+}
+
+/* Specific Square Styles */
+.quadrado#q1 {
+  background-color: skyblue;
+}
+
+.quadrado#q2 {
+  background-image: linear-gradient(to bottom, yellow, orange);
+}
+
+.quadrado#q3 {
+  background-image: url(images/pattern003.png);
+}
