@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexible Box</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightsalmon;
+      }
+
+      .item {
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        flex: 1;
+        min-width: 100px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+      <div class="item">G</div>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo com Comentários</title>
+    <style>
+      /* Estilo para a div principal */
+      .container {
+        /* Define o layout flexbox para a div */
+        display: flex;
+        /* Permite que os itens sejam quebrados em novas linhas */
+        flex-wrap: wrap;
+        /* Cor de fundo da div */
+        background-color: lightsalmon;
+      }
+
+      /* Estilo para cada item */
+      .item {
+        /* Cor de fundo dos itens */
+        background-color: lightblue;
+        /* Borda dos itens */
+        border: 1px solid black;
+        /* Alinha o texto dentro dos itens */
+        text-align: center;
+        /* Distribui o espaço disponível igualmente entre os itens */
+        flex: 1;
+        /* Define uma largura mínima para os itens */
+        min-width: 100px;
+        /* Adiciona margem entre os itens */
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item A</div>
+      <div class="item">Item B</div>
+    </div>
+  </body>
+</html>
